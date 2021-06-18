@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.pet4.HomeFragment"
+        android:name="com.example.pet4.ui.home.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/home_fragment">
         <action
@@ -27,12 +27,12 @@
     </fragment>
     <fragment
         android:id="@+id/newsFragment"
-        android:name="com.example.pet4.NewsFragment"
+        android:name="com.example.pet4.ui.news.ItemFragment"
         android:label="NewsFragment"
-        tools:layout="@layout/news_fragment"/>
+        tools:layout="@layout/item_fragment"/>
     <fragment
         android:id="@+id/notificationsFragment"
-        android:name="com.example.pet4.NotificationsFragment"
+        android:name="com.example.pet4.ui.notifications.NotificationsFragment"
         android:label="NotificationsFragment"
         tools:layout="@layout/notifications_fragment"/>
 </navigation>

@@ -1,4 +1,4 @@
-package com.example.pet4
+package com.example.pet4.ui
 
 import android.content.Context
 import android.os.Binder
@@ -15,9 +15,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
     }
 
     override fun onCreateView(name: String, context: Context, attrs: AttributeSet): View? {
         return super.onCreateView(name, context, attrs)
     }
+
 }
